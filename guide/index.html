@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>User Guide | Your Next Cup</title>
+    <meta name="description" content="User Guide for Your Next Cup: calendars, Check Time, Coffee Plans, location, Next Up, and Live Activities.">
+    <meta property="og:title" content="User Guide | Your Next Cup">
+    <meta property="og:description" content="How to use Your Next Cup with the calendars already on your iPhone.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://jstrick428.github.io/your-next-cup/guide/">
+    <link rel="canonical" href="https://jstrick428.github.io/your-next-cup/guide/">
+    <link rel="stylesheet" href="../assets/styles.css">
+  </head>
+  <body>
+    <a class="skip" href="#content">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="../">Your Next Cup</a>
+        <div class="nav-links">
+          <a href="../">Home</a>
+          <a href="./" aria-current="page">User Guide</a>
+          <a href="../privacy/">Privacy</a>
+          <a href="../support/">Support</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="content">
+      <section class="hero">
+        <p class="eyebrow">User Guide</p>
+        <h1>Your Next Cup</h1>
+        <p class="lede">Your next cup, right on time. This guide explains how the app uses the appointments already on your iPhone.</p>
+      </section>
+
+      <section class="section">
+        <h2>Contents</h2>
+        <ol class="toc">
+          <li><a href="#getting-started">Getting Started</a></li>
+          <li><a href="#calendar-access">Calendar Access</a></li>
+          <li><a href="#choosing-calendars">Choosing Calendars</a></li>
+          <li><a href="#google-calendar">Google Calendar</a></li>
+          <li><a href="#outlook">Outlook.com / Microsoft 365</a></li>
+          <li><a href="#todays-appointments">Today’s Appointments</a></li>
+          <li><a href="#nearby-cafes">Finding Nearby Cafés</a></li>
+          <li><a href="#apple-maps">Apple Maps Place Details</a></li>
+          <li><a href="#check-time">Check Time</a></li>
+          <li><a href="#before-after">Before vs After Coffee</a></li>
+          <li><a href="#durations">Stop lengths</a></li>
+          <li><a href="#arrival-buffer">The 10-minute arrival buffer</a></li>
+          <li><a href="#current-location">Current Location</a></li>
+          <li><a href="#approximate-location">Approximate Location</a></li>
+          <li><a href="#manual-starting-place">Manual Starting Place</a></li>
+          <li><a href="#saving">Saving a Coffee Plan</a></li>
+          <li><a href="#starting">Starting a Coffee Plan</a></li>
+          <li><a href="#active">Active Coffee Plan</a></li>
+          <li><a href="#lifecycle-actions">I’m Here / I’ve Arrived / Meeting Over</a></li>
+          <li><a href="#arrival-assistance">Foreground Arrival Assistance</a></li>
+          <li><a href="#next-up">Next Up Notifications</a></li>
+          <li><a href="#live-activities">Live Activities</a></li>
+          <li><a href="#dynamic-island">Dynamic Island</a></li>
+          <li><a href="#changing">Changing or Removing a Plan</a></li>
+          <li><a href="#appearance">Light and Dark Mode</a></li>
+          <li><a href="#troubleshooting">Troubleshooting</a></li>
+        </ol>
+      </section>
+
+      <section class="section" id="getting-started">
+        <h2>1. Getting Started</h2>
+        <p>Open Your Next Cup and allow Calendar access when you are ready for the app to read appointments. Today lists appointments from the calendars you include. Choose an appointment that has a location, look at nearby cafés, and check whether a stop fits before or after that appointment.</p>
+      </section>
+
+      <section class="section" id="calendar-access">
+        <h2>2. Calendar Access</h2>
+        <p>Your Next Cup reads calendars through Apple’s iPhone Calendar system, using EventKit, after you grant calendar access. It does not sign in to Google or Microsoft itself.</p>
+        <p>Installing or signing in to only the Google Calendar app or the Outlook app is not enough. The Google or Microsoft account has to be enabled for Calendar on the iPhone before EventKit can see those events.</p>
+        <p>Some employers block work calendars from being added to the iPhone Calendar app. Your Next Cup cannot read a calendar that iOS is not allowed to provide. If a policy prevents native calendar access, the app cannot bypass that policy.</p>
+        <p>If access is off, open Settings, then Apps, then Your Next Cup, then Calendars, and choose Full Access. You can also open Settings, then Privacy &amp; Security, then Calendars, then Your Next Cup, and choose Full Access.</p>
+      </section>
+
+      <section class="section" id="choosing-calendars">
+        <h2>3. Choosing Calendars</h2>
+        <p>When calendar access is allowed, use Calendars on the Today screen and turn on at least one calendar. Only selected calendars are considered. If every calendar is turned off, Today explains that no calendars are selected and keeps the Calendars control available.</p>
+        <p>If the iPhone Calendar app has no calendars at all, the app explains how to add an account. That is a different situation from having calendars and leaving them unselected.</p>
+      </section>
+
+      <section class="section" id="google-calendar">
+        <h2>4. Google Calendar</h2>
+        <p>Add the Google account in Settings, Apps, Calendar, Calendar Accounts, or through Settings, Calendar, Accounts, depending on your iOS version. Turn on Calendars for that account. Events then appear in the iPhone Calendar app, and Your Next Cup can include them after you select that calendar.</p>
+        <p>The Google Calendar app on its own does not give EventKit those events.</p>
+      </section>
+
+      <section class="section" id="outlook">
+        <h2>5. Outlook.com / Microsoft 365</h2>
+        <p>Outlook.com and Microsoft 365 calendars follow the same path. Add the account for the iPhone Calendar app and enable Calendars. Then select that calendar inside Your Next Cup.</p>
+        <p>A work or school account may be limited by the organization. If the account cannot be added to iPhone Calendar, or if the organization disables calendar data for native apps, Your Next Cup will not see those events. The Outlook app alone is not a substitute.</p>
+      </section>
+
+      <section class="section" id="todays-appointments">
+        <h2>6. Today’s Appointments</h2>
+        <p>Today shows appointments from the selected calendars that overlap the current day. An appointment without a location can still be listed. A café search needs a location the app can resolve.</p>
+        <p>If nothing overlaps today, the screen says there are no appointments today. That does not mean calendar access failed.</p>
+      </section>
+
+      <section class="section" id="nearby-cafes">
+        <h2>7. Finding Nearby Cafés</h2>
+        <p>From an appointment with a location, Your Next Cup asks Apple MapKit for café places near that location. Results are limited to the nearest matches within about 5 kilometers. If MapKit returns nothing in that area, the app says no cafés were found.</p>
+        <p>The search uses the appointment location, not a saved list of favorite cafés.</p>
+      </section>
+
+      <section class="section" id="apple-maps">
+        <h2>8. Apple Maps Place Details</h2>
+        <p>You can open a selected café in Apple Maps. Your Next Cup hands the place name and coordinate to Apple Maps. What Maps shows after that, including hours and directions, is provided by Apple Maps.</p>
+      </section>
+
+      <section class="section" id="check-time">
+        <h2>9. Check Time</h2>
+        <p>Check Time estimates whether the stop fits. It uses the appointment time, the café, the stop length you choose, travel estimates from MapKit, and a starting point for the trip before coffee.</p>
+        <p>A before-coffee check needs a starting point: your current location, or a starting place you search for and select. The after-coffee check does not depend on that starting point. It looks at the time from the café onward.</p>
+      </section>
+
+      <section class="section" id="before-after">
+        <h2>10. Before vs After Coffee</h2>
+        <p>Before coffee is a stop on the way to the appointment. It needs a usable starting point and a route that still gets you to the appointment on time, including the arrival buffer.</p>
+        <p>After coffee is a stop once the appointment is over. It can be checked even when location access is unavailable. If there is no later appointment to reach, the after-coffee result does not invent one.</p>
+      </section>
+
+      <section class="section" id="durations">
+        <h2>11. Quick pickup, Coffee break, Relax, and Custom</h2>
+        <p>Check Time offers these stop lengths:</p>
+        <ul>
+          <li>Quick pickup: 10 minutes</li>
+          <li>Coffee break: 20 minutes</li>
+          <li>Relax: 30 minutes</li>
+          <li>Custom: a length you set</li>
+        </ul>
+        <p>Changing the length recalculates the plan. A shorter stop can fit when a longer one does not.</p>
+      </section>
+
+      <section class="section" id="arrival-buffer">
+        <h2>12. The 10-minute arrival buffer</h2>
+        <p>Leave-by times include a 10-minute buffer so the plan is not timed to the exact minute you must walk in. That buffer is already part of the leave-by time. It is not added a second time.</p>
+      </section>
+
+      <section class="section" id="current-location">
+        <h2>13. Current Location</h2>
+        <p>For a before-coffee check, Your Next Cup can use your current location while the app is in use. Allow Location While Using the App when iOS asks. The app does not ask for Always access, and it does not track location in the background.</p>
+        <p>If access is denied, before coffee cannot be checked from your location. You can still search for and select a starting place. After coffee remains available.</p>
+        <p>If Screen Time or device management restricts location, that is separate from turning the permission off. The app explains the restriction and still offers Enter starting place. Changing the ordinary permission switch may not remove a restriction.</p>
+        <p>If a fresh location reading is not available, the app says the current location is unavailable. Search for and select a starting place, or try again when a reading is available.</p>
+      </section>
+
+      <section class="section" id="approximate-location">
+        <h2>14. Approximate Location</h2>
+        <p>If iOS provides an approximate location, Check Time can still use it and shows “Using an approximate location.” You can search for and select a starting place when you want a specific origin instead. The app does not replace an approximate reading on its own.</p>
+      </section>
+
+      <section class="section" id="manual-starting-place">
+        <h2>15. Manual Starting Place</h2>
+        <p>Enter starting place opens a search titled Starting place. Type a place or address, choose one of the resolved suggestions, and that place becomes the origin for the before-coffee check. Unfinished text is not used as a route origin.</p>
+        <p>Choosing a starting place does not itself request location permission. After you choose one for the current check, the app keeps using it until you change it or leave that check. A later location reading does not silently replace it.</p>
+        <p>The search is only for the current Check Time flow. Your Next Cup does not keep a search history or a list of favorite places. If you save the Coffee Plan, the plan stores that origin’s name and coordinate with the plan.</p>
+      </section>
+
+      <section class="section" id="saving">
+        <h2>16. Saving a Coffee Plan</h2>
+        <p>Save Plan keeps one Coffee Plan on the iPhone. Saving again replaces that plan. The saved plan is for review. It is not active until you start it.</p>
+        <p>The saved plan can include the appointment, the café, the origin name and coordinate, the travel estimates, the duration, and the itinerary.</p>
+      </section>
+
+      <section class="section" id="starting">
+        <h2>17. Starting a Coffee Plan</h2>
+        <p>Start Coffee Plan makes the saved plan active. You can start it from the plan review. Starting is separate from saving, and it is separate from opening the plan from a notification.</p>
+      </section>
+
+      <section class="section" id="active">
+        <h2>18. Active Coffee Plan</h2>
+        <p>The Active Coffee Plan shows the current step, such as getting ready to leave, heading to the café, or heading to the appointment. You advance it with the action on the plan. Recheck travel times asks MapKit for a new estimate while you are using the app.</p>
+        <p>If the stop no longer fits safely, the plan says: “This coffee stop no longer safely fits.” You can still follow the plan toward the appointment. A shorter stop may be offered when the original length no longer fits and a shorter one does.</p>
+      </section>
+
+      <section class="section" id="lifecycle-actions">
+        <h2>19. I’m Here / I’ve Arrived / Meeting Over</h2>
+        <p>On the way to the café, the action is I’m Here. Use it when you have reached the café.</p>
+        <p>On the way to the appointment, or onward to a following appointment, the action is I’ve Arrived. Use it when you have reached that place.</p>
+        <p>Meeting Over is the step after the appointment, including when the plan is for coffee afterward, and when a before-coffee stop was skipped because it no longer fit.</p>
+        <p>The action changes with the current phase. It may also include Start Trip, Time to leave, Leave for Meeting, Meeting Started, Head to café, Start coffee, or Leave for next appointment.</p>
+      </section>
+
+      <section class="section" id="arrival-assistance">
+        <h2>20. Foreground Arrival Assistance</h2>
+        <p>While the Active Coffee Plan is on screen and the app is in the foreground, Your Next Cup can notice when a fresh, precise location reading is near the café or the appointment you are heading toward. It may show “Looks like you’re near” that place. That message is a suggestion. It does not advance the plan for you.</p>
+        <p>This check runs only in those moments. It is not background tracking, and the Live Activity does not perform it.</p>
+      </section>
+
+      <section class="section" id="next-up">
+        <h2>21. Next Up Notifications</h2>
+        <p>Next Up is a single local reminder for a saved, inactive, before-coffee plan that still fits. It uses the leave-by time already saved on that plan. The reminder is set for 10 minutes before that leave-by time, so you have a short time to react. Those 10 minutes are not the same as the arrival buffer, which is already inside the leave-by time.</p>
+        <p>The notification is based on the saved plan. Your Next Cup does not continuously check traffic or location while the app is closed. If you change or remove the plan while the app is running, the reminder is replaced or removed to match. If the app is not running, a reminder that was already scheduled stays on the iPhone until the app can update it.</p>
+        <p>Next Up is scheduled for 10 minutes before the saved leave-by time. If that notification time has already passed when the plan is saved or reconciled, Your Next Cup does not send a late reminder even when leave-by itself is still ahead.</p>
+        <p>Next Up is not created for an after-only plan, for a plan with no usable origin, or when the leave-by time has already passed. Opening the notification shows the saved plan. It does not start the plan.</p>
+        <p>The app asks about notifications after you save an eligible plan, not at first launch. Not now leaves Next Up unscheduled. If notifications are denied, the plan remains usable and the app does not ask again. Turn them on in Settings, Notifications, Your Next Cup.</p>
+      </section>
+
+      <section class="section" id="live-activities">
+        <h2>22. Live Activities</h2>
+        <p>An active Coffee Plan can appear as a Live Activity. It shows the plan’s current step and can include the next action. That action performs the displayed next Coffee Plan step and opens Your Next Cup. The plan does not advance on its own.</p>
+        <p>The Live Activity uses the plan state it was given. It does not read your calendars, your location, or MapKit on its own.</p>
+        <p>Live Activities can be turned off for the app in Settings. They can also be hidden by system settings such as Focus. If you do not see one, check Settings, then Apps, then Your Next Cup, then Live Activities.</p>
+      </section>
+
+      <section class="section" id="dynamic-island">
+        <h2>23. Dynamic Island</h2>
+        <p>On iPhone models that have a Dynamic Island, the same Live Activity can appear there. iPhones without a Dynamic Island can still show the Live Activity on the Lock Screen when Live Activities are allowed. Your Next Cup does not add a Dynamic Island to a phone that does not have one.</p>
+      </section>
+
+      <section class="section" id="changing">
+        <h2>24. Changing or Removing a Plan</h2>
+        <p>From the saved plan you can change the café, change the duration, refresh travel times, or remove the plan. Removing it clears the saved plan. The app keeps one plan at a time, so saving a different plan replaces the previous one.</p>
+      </section>
+
+      <section class="section" id="appearance">
+        <h2>25. Light and Dark Mode</h2>
+        <p>Your Next Cup follows the iPhone’s Light or Dark appearance. The cream location card keeps dark text in both appearances so it stays readable.</p>
+      </section>
+
+      <section class="section" id="troubleshooting">
+        <h2>26. Troubleshooting</h2>
+        <p>Calendar, location, route, notification, and Live Activity problems are collected on the <a href="../support/">Support</a> page, with the Settings paths that apply.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>Your Next Cup is made by Justin Matthew Strickler.</p>
+        <p><a href="../support/">Support</a> · <a href="../privacy/">Privacy Policy</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
